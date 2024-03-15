@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=h, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script defer src="./main.js"></script>
+  <title>BB FELIZ S.A. DE C.V.</title>
+
+</head>
+
+<body>
+    
+    <header>
+       <div>
+        <center><img src="./Imagenes bebé feliz/logobebéfeliz.png" alt="logo de bebé"></center>
+      </div>
+      <nav>
+
+        <ul>
+          <a href="index.html">
+            <li>INICIO</li>
+          </a>
+          <a href="#recursos">
+            <li>RECURSOS</li>
+          <a href="#productos">
+            <li>PRODUCTOS</li>
+          </a>
+          <a href="contacto.html">
+            <li>CONTACTO</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Imagenes bebé feliz/carruselbebé1.jpg" class="d-block w-100" alt="carrusel 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes bebé feliz/carruselbebé2.jpg" class="d-block w-100" alt="carrusel 2">
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes bebé feliz/carruselbebé3.jpg" class="d-block w-100" alt="carrusel 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    <div class="presentacion">
+      <h1>BEBÉ FELIZ</h1>
+      <p>Somos una tienda en línea que ofrece productos prácticos y funcionales para los pequeños.<br>
+        Nuestra selección de productos está pensada para la vida diaria de manera que sean útiles. <br>
+        Nuestra objetivo es compartir consejos y recomendaciones sobre el cuidado de los chiquitos.<br>
+      </p>
+    </div>
+    <div class="contenedor">
+      <div class="caja">
+        <img src="./Imagenes bebé feliz/bebéfeliz.jpg" alt="bebé feliz 1">
+        <h2>Artículos para alimentación</h2>
+        <p>Plato con ventosas <br>
+           Vaso abierto o con popote <br>
+           Babero impermeables <br>
+           Cubiertos manipulables <br>
+           Contenedores para guardar alimentos <br>
+        </p>
+
+      </div>
+
+      <div class="caja">
+        <img src="./Imagenes bebé feliz/bebéfeliz2.jpg" alt="bebé feliz 2">
+        <h2>Artículos extra</h2>
+        <p>Frazadas de algodón <br>
+           Sombrero/gorra para el sol <br>
+           Mordedera <br>
+           Sonajas <br>
+           Tapete <br>
+            
+           
+        </p>
+
+      </div>
+
+    </div>
+    <div id="productos">
+    <!-- contenedor general para poner todos los productos -->
+    <div class="contenedor-productos">
+      <h1>PRODUCTOS</h1>
+      <!-- primer producto -->
+      <div class="caja-productos">
+        <center><div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Imagenes bebé feliz/Babero.webp" class="d-block w-50" alt="babero">
+            </div>
+            <div class="carousel-item">
+              <img src="./Imagenes bebé feliz/babero2.webp" class="d-block w-50" alt="babero2">
+            </div>
+            <div class="carousel-item">
+              <img src="./Imagenes bebé feliz/babero3.webp" class="d-block w-50" alt="babero3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div></center>
+        <h1>Babero</h1>
+
+        <div id="contenido">
+          <!-- este contenedor es el que quiero ocultar/mostrar -->
+          <p> Baberos de alimentación impermeables con patrón de dibujos animados. Es ajustable, fácil de poner y no es necesario lavar, además cubre bien la ropa. Ideal para la temporada de primavera-verano.
+          </p>
+        </div>
+        <button onclick='muestra_oculta("contenido")' class="btn btn-dark" form="contenido">+</button>
+      </div>
+      
+      <!-- segundo producto -->
+      <div class="caja-productos">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <center><div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Imagenes bebé feliz/cubiertos.jpg" class="d-block w-50" alt="cubiertos">
+            </div>
+            <div class="carousel-item">
+              <img src="./Imagenes bebé feliz/cubiertos2.jpg" class="d-block w-50" alt="cubiertos2">
+            </div>
+            <div class="carousel-item">
+              <img src="./Imagenes bebé feliz/cubiertos3.jpg" class="d-block w-50" alt="cubiertos3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div></center>
+        <h1>Cubiertos </h1>
+        <div id="contenido2">
+          <!-- este contenedor es el que quiero ocultar/mostrar -->
+          <p>Cubiertos de acero inoxidable, fácil de manipular, diferentes colores, el mango es de silicona. Fácil de lavar y es adecuado para niños pequeños. </p>
+        </div>
+        <button onclick="muestra_oculta('contenido2')" class="btn btn-success" form="contenido2">+</button>
+      </div>
+
+      <!-- tercer producto -->
+      <div class="caja-productos">
+        <center><div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Imagenes bebé feliz/Muselina.webp" class="d-block w-50" alt="Muselina">
+            </div>
+            <div class="carousel-item">
+              <img src="./Imagenes bebé feliz/Muselina2.webp" class="d-block w-50" alt="Muselina2">
+            </div>
+            <div class="carousel-item">
+              <img src="./Imagenes bebé feliz/Muselina3.webp" class="d-block w-50" alt="Muselina3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div></center>
+        <h1>Manta de muselina </h1>
+        <div id="contenido3">
+          <!-- este contenedor es el que quiero ocultar/mostrar -->
+          <p>Mantas para bebé con diferentes estampados, el material con el que está hecha: algodón y fibra de bambú, es ligera y fresca.
+            Tamaño: 120x120. Diferentes modelos 
+          </p>
+        </div>
+        <button onclick="muestra_oculta('contenido3')" class="btn btn-warning" form="contenido3">+</button>
+      </div>
+    
+    <!-- cuarto producto -->
+    <div class="caja-productos">
+      <center><div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Imagenes bebé feliz/Sombrero.webp" class="d-block w-50" alt="Sombrero">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes bebé feliz/Sombrero2.webp" class="d-block w-50" alt="Sombrero2">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes bebé feliz/Sombrero3.webp" class="d-block w-50" alt="Sombrero3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div></center>
+      <h1>Sombrero </h1>
+      <div id="contenido4">
+        <!-- este contenedor es el que quiero ocultar/mostrar -->
+        <p>Sombrero tipo pescador dibujo de oso.
+          Diferentes tallas y colores.
+          Material:algodón y nylon.
+          Unisex, ideal para cualquier época del año.
+        </p>
+      </div>
+      <button onclick="muestra_oculta('contenido4')" class="btn btn-light" form="contenido4">+</button>
+    </div>
+  
+  <!-- quinto producto -->
+  <div class="caja-productos">
+   <center> <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Imagenes bebé feliz/vasosilicona.webp" class="d-block w-50" alt="vaso de silicona">
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes bebé feliz/vasosilicona2.webp" class="d-block w-50" alt="vaso de silicona2">
+        </div>
+        <div class="carousel-item">
+          <img src="./Imagenes bebé feliz/vasosilicona3.webp" class="d-block w-50" alt="vaso de silicona3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div></center>
+    <h1>Vaso de silicona</h1>
+    <div id="contenido5">
+      <!-- este contenedor es el que quiero ocultar/mostrar -->
+      <p>Es una tazas de alimentación de silicona, grado alimenticio, también puedes almacenar los aperitivos, sin BPA.Ideal para bebés.
+        Capacidad: 200 ml.
+        Diferentes colores
+      </p>
+    </div>
+    <button onclick="muestra_oculta('contenido5')" class="btn btn-danger" form="contenido5">+</button>
+  </div>
+</div>
+</div>
+</div>
+
+
+    <div id="recursos">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Io4XOrf5M7Y?si=hVRG3pdJlSZCmBaK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_WXQQrShqnk?si=g6nH1nYhnTeOrKXZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+
+    <footer>
+      <p>Creado por Eunice Castellanos| ©2024. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
